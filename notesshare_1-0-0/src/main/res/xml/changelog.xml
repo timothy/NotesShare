@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>    
+    <release version="1.0.0" versioncode="1000" date="10/05/2014">
+        <change>Color choose supported</change>
+        <change>Image chosee supported</change>
+        <change>something else... change in res/xml/changelog.xml</change>
+    </release>      
+</changelog>

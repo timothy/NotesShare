@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="finetip_pen">1dp</dimen>
+    <integer name="finetip_size">1</integer>
+
+    <dimen name="normal_pen">5dp</dimen>
+    <integer name="normal_size">5</integer>
+
+    <dimen name="big_pen">5dp</dimen>
+    <integer name="bigl_size">5</integer>
+
+    <dimen name="color_dim">115dp</dimen>
+
+
+    </resources>

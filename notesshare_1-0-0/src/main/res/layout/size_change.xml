@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:contentDescription="@string/ftp"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fine_tip"
+        android:src="@drawable/fine_tip" />
+    <ImageButton
+        android:contentDescription="@string/normal"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/norm_tip"
+        android:src="@drawable/normal_tip" />
+    <ImageButton
+        android:contentDescription="@string/big"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/big"
+        android:src="@drawable/big_tip"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom"
+        android:id="@+id/custom_button"
+        android:layout_weight="1" />
+
+</LinearLayout>

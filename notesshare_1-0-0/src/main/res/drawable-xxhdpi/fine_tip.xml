@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="true"
+    android:shape="oval" >
+
+    <size
+        android:height="@dimen/finetip_pen"
+        android:width="@dimen/finetip_pen" />
+
+    <solid android:color="#000000" />
+
+</shape>

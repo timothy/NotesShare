@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.notesshare.ui.HomeActivity" >
+
+    <item android:id="@+id/id_pen"
+        android:title="@string/string_pen"
+        android:icon="@drawable/pen"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/id_image"
+        android:title="@string/string_image"
+        android:icon="@drawable/image"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/id_undo"
+        android:title="@string/string_undo"
+        android:icon="@drawable/undo"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/id_redo"
+        android:title="@string/string_redo"
+        android:icon="@drawable/redo"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/id_save"
+        android:title="@string/string_save"
+        android:icon="@drawable/save"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/id_share"
+        android:title="@string/string_share"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/id_update"
+        android:title="@string/string_update"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/id_about"
+        android:title="@string/string_about"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/id_feedback"
+        android:title="@string/string_feedback"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/clear"
+        android:title="@string/string_clear"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/colorify"
+        android:title="@string/color"
+        android:orderInCategory="6"
+        android:showAsAction="never"/>
+
+</menu>

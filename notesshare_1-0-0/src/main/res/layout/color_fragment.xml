@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <!-- Top Row -->
+        <LinearLayout
+            android:id="@+id/paint_colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:background="#FF660000"
+                android:layout_margin="2dp"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/one"/>
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FFFF0000"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/two" />
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FFFF6600"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/three" />
+
+
+
+        </LinearLayout>
+        <!-- Bottom Row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FF0000FF"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/four"/>
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FF990099"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/five"/>
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FFFF6666"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/six"/>
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="@dimen/color_dim"
+                    android:layout_height="@dimen/color_dim"
+                    android:layout_margin="2dp"
+                    android:background="#FF787878"
+                    android:contentDescription="@string/color"
+                    android:src="@drawable/color_btn"
+                    android:id="@+id/seven"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/color_dim"
+                    android:layout_height="@dimen/color_dim"
+                    android:layout_margin="2dp"
+                    android:background="#FF000000"
+                    android:contentDescription="@string/color"
+                    android:src="@drawable/color_btn"
+                    android:id="@+id/eight"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/color_dim"
+                    android:layout_height="@dimen/color_dim"
+                    android:layout_margin="2dp"
+                    android:background="#FF009900"
+                    android:contentDescription="@string/color"
+                    android:src="@drawable/color_btn"
+                    android:id="@+id/nine"/>
+
+
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FF009999"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/ten"/>
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FFFFFFFF"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/eleven"/>
+
+            <ImageButton
+                android:layout_width="@dimen/color_dim"
+                android:layout_height="@dimen/color_dim"
+                android:layout_margin="2dp"
+                android:background="#FFFFCC00"
+                android:contentDescription="@string/color"
+                android:src="@drawable/color_btn"
+                android:id="@+id/twelve"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
